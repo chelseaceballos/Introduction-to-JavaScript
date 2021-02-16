@@ -18,7 +18,12 @@ Do the following:
    HINT: no function required
 */
 
-
+var votingAge = 23;
+if(votingAge >= 18) {
+ let console.log('you can vote!');
+} else{
+ let console.log('you cannot vote');
+}
 
 /*
 Task 1b - Values
@@ -30,8 +35,10 @@ Do the following:
 
    HINT: no function required
 */
-
-
+var hens = 6 ;
+var cows = 4 ;
+var sum = hens + cows;
+console.log(sum);
 
 
 
@@ -45,6 +52,8 @@ Do the following:
 
    HINT: look up the Number method
 */
+
+console.log(parseInt('1998'));
 
 
 
@@ -73,11 +82,6 @@ Do the following:
    2. Use the received value to calculate the age in dog years (1 human year is equal to 7 dog years)
    3. Return the newly calculated age
 */
-
-function dogYears(/*add your code here*/){
-    /*add your code here*/
-}
-
 
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 3 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
@@ -187,6 +191,8 @@ function annoyingSong(/*add your code here*/){
 
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 7 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
+
+
 
 //Grade Calculator
 /*
