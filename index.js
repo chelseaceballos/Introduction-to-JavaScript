@@ -18,11 +18,9 @@ Do the following:
    HINT: no function required
 */
 
-var votingAge = 23;
-if(votingAge >= 18) {
- let console.log('you can vote!');
-} else{
- let console.log('you cannot vote');
+let votingAge = 25;
+if (votingAge >=18) {
+  console.log('true')
 }
 
 /*
@@ -82,7 +80,9 @@ Do the following:
    2. Use the received value to calculate the age in dog years (1 human year is equal to 7 dog years)
    3. Return the newly calculated age
 */
-
+function dogYears(/*add your code here*/){
+  /*add your code here*/
+}
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 3 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
 
