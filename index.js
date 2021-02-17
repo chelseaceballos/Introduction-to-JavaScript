@@ -189,10 +189,25 @@ Using the annoyingSong function below do the following:
       "{number} bottles of soda on the wall, {number} bottles of soda, take one down pass it around {number left over} bottles of soda on the wall"
 */
 
-function annoyingSong(/*add your code here*/){
-        /*add your code here*/
-  }
+function annoyingSong() {
 
+}
+      //   var number;
+      //   var numberLeftOver; 
+      //   for (i = 99; i >= 1; i--) {
+      //     if (i === 0) {
+      //       number = "bottle";
+      //       bottlesLeft = "no bottles"
+      //     } else {
+      //       number = "bottles";
+      //       numberLeftOver = "No bottles";
+      //     } numberLeftOver = i - 1 + " bottles";
+      //   } console.log(i+ " " + number + " of beer on the wall,");
+      //   console.log(i+ " " + number + " of beer,");
+      //   console.log("Take one down, pass it around,");
+      //   console.log(numberLeftOver);
+      //   }
+      //  console.log(annoyingSong());
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 7 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
 
