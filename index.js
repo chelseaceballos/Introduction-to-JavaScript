@@ -82,8 +82,8 @@ Do the following:
 */
 
 
-function dogYears(age ) {
-
+function dogYears(age) {
+      return age * 7 ;
 }
 
 
