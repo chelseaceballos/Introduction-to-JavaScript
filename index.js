@@ -77,12 +77,16 @@ console.log(multiply(1,3));
 /*
 Do the following:
    1. Invoke the dogYears function below and pass an age value to it
-   2. Use the received value to calculate the age in dog years (1 human year is equal to 7 dog years)
+   2. Use the received value to calculate the age in dog years (1 human year is = equal to 7 dog years)
    3. Return the newly calculated age
 */
-function dogYears(/*add your code here*/){
-  /*add your code here*/
+
+
+function dogYears(age ) {
+
 }
+
+
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 3 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
 
@@ -155,8 +159,8 @@ Using the miles function below do the following:
   3. Return the number of miles
 */
 
-function miles(/*add your code here*/){
-    /*add your code here*/
+function miles(km){
+    return km * 0.621371;
   }
 
 
@@ -169,8 +173,8 @@ Using the feet function below do the following:
   3. Return number of feet
 */
 
-function feet(/*add your code here*/){
-    /*add your code here*/
+function feet(cm){
+    return cm / 30.48;
   }
  
 
