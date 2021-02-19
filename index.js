@@ -82,10 +82,25 @@ Do the following:
 */
 
 
-function dogYears(age) {
-      return age * 7 ;
+function dogYears(weight, age) {
+      let lbsOfFood = 0
+      if (age >= 1 && weight <= .05){
+      return (weight * 0.05);
+      } else if (age >= 1 && weight > 5 && weight <= 10) {
+        return (weight * .04);
+      }else if (age >= 1 && weight > 10 && weight <= 15) {
+        return (weight * .03);
+      }else if (age >= 1 && weight > 15) {
+        return (weight * .02);
+      } else if (age <  1 && age >= .84 && weight <=5){
+        return (weight * .04)
+      }else if (age <  .84 && age >= .48 && weight <=10){
+        return (weight * .05)
+      }else if (age <  .48 && age >= .24 && weight <=10 && weight <=15){
+        return (weight * .10)
+      }
 }
-
+console.log(hungryDog(45,2));
 
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 3 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
