@@ -82,25 +82,11 @@ Do the following:
 */
 
 
-function dogYears(weight, age) {
-      let lbsOfFood = 0
-      if (age >= 1 && weight <= .05){
-      return (weight * 0.05);
-      } else if (age >= 1 && weight > 5 && weight <= 10) {
-        return (weight * .04);
-      }else if (age >= 1 && weight > 10 && weight <= 15) {
-        return (weight * .03);
-      }else if (age >= 1 && weight > 15) {
-        return (weight * .02);
-      } else if (age <  1 && age >= .84 && weight <=5){
-        return (weight * .04)
-      }else if (age <  .84 && age >= .48 && weight <=10){
-        return (weight * .05)
-      }else if (age <  .48 && age >= .24 && weight <=10 && weight <=15){
-        return (weight * .10)
-      }
+function dogYears(age) {
+  return age * 7
 }
-console.log(hungryDog(45,2));
+console.log(dogYears);
+     
 
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 3 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
@@ -130,9 +116,25 @@ Use the hungryDog function and feeding requirements below to do the following:
   NOTE: If done correctly, a weight of 15 lbs and age of 1 year would return 0.44999999999999996
 */  
 
-function hungryDog(/*add your code here*/){
-    /*add your code here*/
+function hungryDog(weight, age) {
+  let lbsOfFood = 0
+  if (age >= 1 && weight <= .05){
+  return (weight * 0.05);
+  } else if (age >= 1 && weight > 5 && weight <= 10) {
+    return (weight * .04);
+  }else if (age >= 1 && weight > 10 && weight <= 15) {
+    return (weight * .03);
+  }else if (age >= 1 && weight > 15) {
+    return (weight * .02);
+  } else if (age <  1 && age >= .84 && weight <=5){
+    return (weight * .04)
+  }else if (age <  .84 && age >= .48 && weight <=10){
+    return (weight * .05)
+  }else if (age <  .48 && age >= .24 && weight <=10 && weight <=15){
+    return (weight * .10)
   }
+}
+console.log(hungryDog(45,2));
 
 
 
